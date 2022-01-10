@@ -1,0 +1,20 @@
+package com.Lectures.OOP_7;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<Integer> arr=new LinkedList<>();
+
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println("Enter the number elements you want to enter");
+        int n=sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            arr.add(sc.nextInt());
+        }
+
+        System.out.println(arr);
+    }
+}
